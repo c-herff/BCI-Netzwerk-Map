@@ -59,8 +59,8 @@ if __name__ == '__main__':
     ax.spines['bottom'].set_visible(False)
     # Saving
     plt.tight_layout()
-    plt.savefig('network.png',dpi=600)
-    plotCentralNetwork(ax,labs)
-    #plotNetwork(ax,labs)
-    plt.savefig('network_center_lines.png',dpi=600)
+    plt.savefig('network.png',dpi=150)
+    #plotCentralNetwork(ax,labs)
+    plotNetwork(ax,labs)
+    plt.savefig('network_lines.png',dpi=150)
     plt.show()
